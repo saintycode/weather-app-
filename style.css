@@ -1,0 +1,122 @@
+body {
+  background-color: rgb(57, 70, 88);
+  font-family: "Spline Sans", sans-serif;
+  font: rgb(42, 100, 15);
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: rgb(238, 241, 219);
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgb(57, 59, 59);
+}
+
+form {
+  color: rgb(60, 71, 4);
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: rgb(244, 248, 225);
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-shadow: 2px 2px 5px rgb(57, 59, 59);
+}
+
+h4 {
+  color: rgb(244, 248, 225);
+  font-size: 17px;
+  font-weight: 400px;
+  line-height: 30px;
+  text-shadow: 2px 2px 5px rgb(57, 59, 59);
+}
+
+p {
+  color: rgb(244, 248, 225);
+  font-size: 13px;
+  margin: 5px 0;
+  text-shadow: 2px 2px 5px rgb(57, 59, 59);
+}
+
+h5 {
+  color: #0a58ca;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgb(57, 59, 59);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+  text-shadow: 2px 2px 5px rgb(57, 59, 59);
+}
+
+li {
+  color: rgb(143, 11, 11);
+  font-size: 17px;
+  font-weight: normal;
+  padding: 0;
+  text-shadow: 2px 2px 5px rgb(57, 59, 59);
+}
+
+.weather-app {
+  background: url() no-repeat center center fixed;
+  background-size: cover;
+  background-color: rgb(26, 26, 100);
+  border: 1px solid #080808;
+  padding: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+  text-shadow: 2px 2px 5px rgb(57, 59, 59);
+}
+
+.city-temperature,
+.current-weather {
+  padding: 5px 0;
+}
+
+.btn-group {
+  padding: 0;
+}
+
+.btn-space {
+  margin: 10px 0;
+}
+
+.forecast-button {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  font-size: 18px;
+  padding: 10px 0;
+  width: 120px;
+  height: 50px;
+}
+
+.card {
+  background: transparent;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.temperature {
+  color: rgb(244, 248, 225);
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 5px rgb(57, 59, 59);
+}
+
+.units {
+  position: relative;
+  top: -12px;
+}
